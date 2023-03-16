@@ -13,14 +13,6 @@ body{
      font-family: monospace;
 }
 
-@media screen and (max-width: 600px) {
-  body {
-    width: 50%;
-     justify-content: center;
-     align-items: center;
-  }
-}
-
 .container{
      display: flex;
      background-color: rgba(255, 255, 255, .3);
@@ -33,11 +25,6 @@ body{
      width: 50%;
 }
 
-@media screen and (max-width: 600px) {
-  .container {
-    width: 100%;
-  }
-}
 .heading{
      font-size: 35px;
      font-weight: 200;
