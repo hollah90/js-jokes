@@ -22,7 +22,7 @@ body{
      border-radius: 10px;
      text-align: center;
      color: darkgreen;
-     /* width: 50%; */
+     width: 50%;
 }
 
 .heading{
@@ -39,7 +39,7 @@ body{
      margin: 40px;
 }
 
-.first-side{
+.row{
      width: 250px;
      display: flex;
      flex-direction: column;
@@ -47,7 +47,7 @@ body{
      justify-content: center;
 }
 
-.first-side .s-joke{
+.row .s-joke{
      font-size: 40px;
      font-weight: 500;
      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -57,6 +57,7 @@ body{
 /* .first-side p {
      font-size: 12px;
 } */
+
 .btn{
      font-size: 18px;
      font-weight: 700;
